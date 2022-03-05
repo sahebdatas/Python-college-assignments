@@ -1,0 +1,5 @@
+print("***program to check if a given value is present in a set or not***")
+s=set([1,2,3,4,5,7])
+a=int(input("Enter a number to check whether it is in the set ot not:"))
+print("checking",a,"is in available in the set...")
+print(a in s)

@@ -1,0 +1,5 @@
+print("***program to create an intersection of sets***")
+s=set([1,2])
+s1=set([1,2,3])
+si=s.intersection(s1)
+print("intersection of",s,"and",s1,"is",si)

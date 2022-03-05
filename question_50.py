@@ -1,0 +1,7 @@
+print("***find the elements in a given set that are not in another set***")
+print("creating sets...")
+s1=set([10,20,30,40,50])
+s2=set([40,50,60,70,80])
+print("set1=",s1)
+print("set2=",s2)
+print("Finding the elements of set1 that are not in set2...\n",s1-s2)

@@ -1,0 +1,12 @@
+print("***program to remove an intersection of a 2nd set from the 1st set***")
+print("creating sets...")
+s1=set([1,2,3,4,5])
+s2=set([1,2,3])
+print("set 1=",s1)
+print("set 2=",s2)
+print("finding intersections...")
+si=s1.intersection(s2)
+print("removing elements from sets...")
+s1=s1-si
+print("removing intersection of 2nd set from the 1st set:")
+print("printing 1st set:",s1)
